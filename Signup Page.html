@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefery | Signup</title>
+    <link rel="stylesheet" href="signup style.css">
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Img/logo.png" alt="Chefery.com">
+            <p>Chefery</p>
+        </div>
+        <div id="ul">
+            <ul>
+                <li class="item"><a href="#">←
+                        &nbsp &nbsp Go Back To Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="signupform">
+        <h2 class="h-primary" id="Create">
+            Create a New Account
+        </h2>
+        <div id="forms">
+            <fieldset>
+                <legend>Enter Details Here</legend>
+                <div id="formdata">
+                    <form action="Backend">
+                        <label for="fname" id="fname">First Name:</label>
+                        <input type="text" name="fname" placeholder="First name"><br><br>
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" placeholder="Last name"><br><br>
+                        <label for="Pn">Phone Number:</label>
+                        <input type="number" name="Pn" placeholder="Number"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="fname" placeholder="Email"><br><br>
+                        <label for="gender">Gender:</label> &nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="male" name="gender" value="Male">Male &nbsp; &nbsp;
+                        <input type="radio" id="female" name="gender" value="Female">Female &nbsp; &nbsp;
+                        <input type="radio" id="other" name="gender" value="Other">Other <br><br>
+                        <label for="cnt">Country:</label>
+                        <select name="cnt">
+                            <option value="pak">Pakistan</option>
+                            <option value="ind">India</option>
+                            <option value="bang">Bangladesh</option>
+                        </select><br><br>
+                        <label for="pwd">Password:</label>
+                        <input type="password" name="fname" placeholder="Password"><br><br>
+                        <label for="cpwd">Confirm Password:</label>
+                        <input type="password" name="fname" placeholder="Confirm Password"><br> <br>
+                        <input type="checkbox" name="mgs" id="mgs">
+                        <label for="mgs">Subscribe for email letter</label><br>
+                    </form>
+                </div>
+                <div id="signupbtns">
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    
+</body>
+
+</html>

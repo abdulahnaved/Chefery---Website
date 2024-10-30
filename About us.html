@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefery | About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="aboutus-container">
+        <nav id="navbar">
+            <div id="logo">
+                <img src="Img/logo.png" alt="Chefery.com">
+                <p>Chefery</p>
+            </div>
+            <div id="ul">
+                <ul>
+                    <li class="item"><a href="#">← &nbsp &nbsp Go Back To Home</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="about-container">
+            <h4 class="h-secondary " id="abouttxt">
+                Who Are We?
+            </h4>
+            <hr id="about-hr">
+            <p id="aboutuspara">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, voluptas corrupti saepe est accusamus
+                voluptatem quibusdam. Enim vero magnam atque! Suscipit corporis illum odio voluptate maxime! Nulla
+                maiores alias eaque id harum. Tempore magnam iusto eligendi dolorum sit maxime, fugiat ullam, omnis iure
+                nulla magni necessitatibus recusandae illo facilis earum non numquam impedit odio. Cum cupiditate vitae
+                repudiandae sunt similique dolorem mollitia placeat ad earum praesentium incidunt, aut nobis! Expedita
+                ipsa aut, fugiat laboriosam saepe rerum velit repellendus eius perferendis nisi totam nesciunt ipsum
+                illo quos ex quasi hic dolores doloremque cum suscipit excepturi! Praesentium obcaecati numquam id illum
+                labore!
+            </p>
+            <button class="btns" id="hide" onclick="showhide()"> &#128065; Hide/Show</button>
+            <script>
+                function showhide(){
+                    let hide = document.getElementById('hide');
+                    let aboutuspara = document.getElementById('aboutuspara');
+                    if (aboutuspara.style.display!='none'){
+                        aboutuspara.style.display = 'none';
+                    }
+                    else {
+                        aboutuspara.style.display = 'block';
+                    }
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
