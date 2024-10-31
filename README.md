@@ -2,7 +2,7 @@
 
 ## Description
 
-FoodieExpress is a responsive static website for a food delivery service, designed to provide an engaging and user-friendly experience. The site is built using HTML, CSS, and Bootstrap to ensure a clean, responsive layout that scales seamlessly across different devices. 
+Chefery is a responsive static website for a food delivery service, designed to provide an engaging and user-friendly experience. The site is built using HTML, CSS, and Bootstrap to ensure a clean, responsive layout that scales seamlessly across different devices. 
 ## Features
 
 - **Responsive Design**: Adapts to various screen sizes, optimized for both desktop and mobile, using Bootstrap's grid system.
