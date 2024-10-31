@@ -1,0 +1,117 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  margin: 1.5em 0 1em;
+  line-height: 1.2;
+}
+
+.custom-hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-hover-effect:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom {
+  margin-top: 170px;
+}
+
+#background {
+  background-image: url('bg 2.jpg'); 
+  background-size: cover; 
+  background-position: center;
+}
+
+/* Custom CSS */
+.custom h1 {
+  color: #fff; /* Set heading color to white */
+}
+
+.custom h6 {
+  color: #fff; /* Set subtitle color to white */
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.custom1 {
+  margin-left: 630px;
+}
+
+#adjust {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+#adjust1 {
+  height: 50%;
+  width: 70%;
+  object-fit: contain;
+}
+
+#adjust2 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+#wlcm {
+  margin-top: 60px;
+}
+
+#pickupAdjust {
+  margin-top: 35px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.responsive-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
